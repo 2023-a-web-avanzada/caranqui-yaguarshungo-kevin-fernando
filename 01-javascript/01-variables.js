@@ -115,3 +115,10 @@ kevin.sueldo;
 console.log(kevin.sueldo);
 kevin.sueldo = 1.2;
 console.log(kevin.sueldo);
+
+
+
+
+///19-05-2023
+
+
