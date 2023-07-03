@@ -1,0 +1,44 @@
+{
+  "canciones": [
+    {
+      "nombre": "Shape of You",
+      "cantante": "Ed Sheeran"
+    },
+    {
+      "nombre": "Imagine",
+      "cantante": "John Lennon"
+    },
+    {
+      "nombre": "Rolling in the Deep",
+      "cantante": "Adele"
+    },
+    {
+      "nombre": "Hotel California",
+      "cantante": "Eagles"
+    },
+    {
+      "nombre": "Hey Jude",
+      "cantante": "The Beatles"
+    },
+    {
+      "nombre": "Billie Jean",
+      "cantante": "Michael Jackson"
+    },
+    {
+      "nombre": "Smells Like Teen Spirit",
+      "cantante": "Nirvana"
+    },
+    {
+      "nombre": "Wonderwall",
+      "cantante": "Oasis"
+    },
+    {
+      "nombre": "Thriller",
+      "cantante": "Michael Jackson"
+    },
+    {
+      "nombre": "Cold Water",
+      "cantante": "Justin Bieber"
+    }
+  ]
+}
