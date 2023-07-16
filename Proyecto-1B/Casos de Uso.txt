@@ -1,0 +1,42 @@
+Casos de Uso: 
+> Caso de Uso Catálogo
+-Guardar Producto
+-Consultar Producto
+-Modificar Producto
+-Eliminar Prodcuto
+
+> caso de Uso Factura
+-Generar (Crear) Factura
+-Modificar Factura
+-Obtener Factura
+-Revocar factura
+-Validar Factura
+
+> Caso de Uso Usuario
+- Crear Usuario
+- Consultar Usuario
+- Modificar Usuario
+- Eliminar Usuario
+
+>  Caso de Uso Reporte 
+- Consultar Reporte de Productos Vendidos
+
+
+
+Definición de requerimientos
+1. Ingresar al Sistema 
+2. Guardar Cliente 
+3. Eliminar Cliente 
+4. Modificar Cliente 
+5. Consultar Cliente
+6. Agregar Empleado
+7. Modificar Empleado
+8. Eliminar Empleado
+9. 
+
+
+Entidad:
+-Producto
+-Factura
+-Cliente
+-Usuario
