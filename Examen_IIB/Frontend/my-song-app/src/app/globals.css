@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Define las variables CSS con los valores RGB */
+    --foreground-rgb: 0, 0, 0; /* Negro (por ejemplo) */
+    --background-end-rgb: 0, 191, 255; /* Celeste cian (por ejemplo) */
+    --background-start-rgb: 0, 0, 255; /* Azul (por ejemplo) */
+  }
+  
+  /* Resto de tus estilos CSS */
+  
+}
+
+body {
+  /* Establece el color del texto en función de una variable CSS personalizada */
+  color: rgb(var(--foreground-rgb));
+
+  /* Crea un gradiente lineal de arriba a abajo */
+  background: linear-gradient(
+    to bottom, /* Dirección del gradiente */
+    transparent, /* Color inicial (transparente) */
+    rgb(var(--background-end-rgb)) /* Color final (celeste cian) */
+  ), /* Coma para agregar otro fondo debajo */
+  rgb(var(--background-start-rgb)); /* Color de fondo (azul) */
+}
